@@ -66,6 +66,7 @@ use List::MoreUtils qw(any);
 
 sub get_options {
 	my ($self, $opt) = @_;
+	$opt->{option} ||= {};
 	GetOptions($opt->{option}, 'outputfile=s') or die "Unable to parse command-line options";
 	$opt->{option}{outputfile} = 'phabricator.json' if !defined $opt->{option}{outputfile};
 }
