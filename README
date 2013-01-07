@@ -25,20 +25,6 @@ perldoc command.
 
     perldoc Devel::Cover::Report::Phabricator
 
-You can also look for information at:
-
-    RT, CPAN's request tracker (report bugs here)
-        http://rt.cpan.org/NoAuth/Bugs.html?Dist=Devel-Cover-Report-Phabricator
-
-    AnnoCPAN, Annotated CPAN documentation
-        http://annocpan.org/dist/Devel-Cover-Report-Phabricator
-
-    CPAN Ratings
-        http://cpanratings.perl.org/d/Devel-Cover-Report-Phabricator
-
-    Search CPAN
-        http://search.cpan.org/dist/Devel-Cover-Report-Phabricator/
-
 LICENSE AND COPYRIGHT
 
 Copyright (C) 2013 Mike Cartmell
