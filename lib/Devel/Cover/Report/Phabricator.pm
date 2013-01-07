@@ -13,14 +13,14 @@ L<Devel::Cover>'s output directory. This file can then be parsed and used to
 provide coverage information as part of a unit test report to a
 L<Phabricator|http://phabricator.org> server.
 
-Phabricator is a suite of web applications developed at Facebook for conducting
+Phabricator is a suite of web applications originally developed at Facebook for conducting
 code reviews, task management and much more. For documentation on configuring
-code coverage, see
+code coverage for Phabricator, see
 L<http://www.phabricator.com/docs/phabricator/article/Arcanist_User_Guide_Code_Coverage.html>.
 
 =head1 OPTIONS
 
-Additional arguments to the C<cover> program are automatically passed to the report. The additional arguments supported by this report are:
+Additional arguments to the C<cover> program are automatically passed to the report object. The additional arguments supported by this report are:
 
 =over
 
